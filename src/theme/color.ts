@@ -13,8 +13,8 @@ const colors = {
     offerTwo: '#F0C08F',
   },
   starColor: '#DFDF07',
-  magnifyColor: '#33363F',
   bgBtn: '#40C057',
+  borderInput: '#E0E0E0',
 }
 
 export default colors
