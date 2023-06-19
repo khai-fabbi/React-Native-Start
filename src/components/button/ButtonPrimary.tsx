@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 2.28,
     shadowRadius: 16,
     elevation: 20,
+    alignItems: 'center',
   },
   btnText: {
     color: colors.white,

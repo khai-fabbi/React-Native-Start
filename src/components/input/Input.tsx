@@ -6,23 +6,21 @@ interface InputProps extends TextInputProps {}
 
 const Input = (props: InputProps) => {
   return (
-    <View style={styles.container}>
-      <TextInput
-        {...props}
-        style={styles.input}
-        placeholderTextColor={colors.gray}
-      />
-    </View>
+    <TextInput
+      {...props}
+      style={[styles.input, props.style]}
+      placeholderTextColor={colors.gray}
+    />
   )
 }
 
 export default Input
 
 const styles = StyleSheet.create({
-  container: {},
   input: {
     borderColor: colors.borderInput,
     borderWidth: 1,
+    margin: 5,
     backgroundColor: colors.white,
     color: colors.main,
     paddingHorizontal: 24,
