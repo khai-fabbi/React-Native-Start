@@ -42,7 +42,7 @@ const SignIn = ({ navigation }: { navigation: any }) => {
             <ButtonPrimary
               title="Click Me!"
               style={styles.btnSubmit}
-              onPress={() => navigation.navigate('HomeBase')}
+              onPress={() => navigation.navigate('TabsStack')}
             />
 
             {/* modal */}

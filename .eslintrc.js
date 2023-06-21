@@ -1,6 +1,10 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community', 'plugin:prettier/recommended'],
+  extends: [
+    '@react-native-community',
+    'plugin:prettier/recommended',
+    'prettier',
+  ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   ignorePatterns: ['node_modules', 'android', 'ios', 'coverage', '__tests__'],
@@ -15,7 +19,7 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'warn',
         'newline-before-return': 'warn',
         'no-cond-assign': ['error', 'always'],
-        'no-console': 'error',
+        'no-console': 'warn',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
         'no-else-return': 'warn',

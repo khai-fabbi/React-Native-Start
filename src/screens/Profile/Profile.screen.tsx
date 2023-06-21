@@ -6,7 +6,7 @@ const UserProfile = () => {
   return (
     <SafeAreaView>
       <View>
-        <Icon name={'ios-settings'} size={100} color={'green'} />
+        <Icon name="ios-settings" size={100} color={'green'} />
       </View>
       <View
         style={{

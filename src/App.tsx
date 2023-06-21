@@ -1,7 +1,7 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import { store } from './stores/index'
-import MainNavigation from './navigation/navigation'
+import MainNavigation from './navigators/RootNavigator'
 
 const App = () => {
   return (
